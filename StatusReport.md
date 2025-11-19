@@ -25,6 +25,8 @@ For the CitiBike dataset, the four raw CSV files were merged and cleaned to remo
 ### Repository Organization and Documentation  
 The repository now follows a clean and transparent structure to support full reproducibility. Raw data, processed outputs, preprocessing notebooks, and documentation are clearly separated and labeled. This structure makes it possible for an external reviewer to rebuild the processed datasets entirely from the raw data and provided notebooks. The decision to maintain strict separation between raw and processed files reinforces data integrity and prevents accidental overwriting. The repository is now fully prepared for the analytical phase.
 
+Since the raw data files are too large to upload to the repository, they are stored locally and excluded from version control using a .gitignore rule. This approach keeps the repository lightweight while ensuring that all preprocessing steps remain fully documented and reproducible.
+
 ### Preparation for Integration  
 Having completed preprocessing, we evaluated the datasets for alignment. The AirNow and CitiBike datasets share the same 14-day period, and both include date fields in a consistent format. This makes merging straightforward and ensures that each day's pollutant measurements line up directly with the corresponding mobility data. The preparation completed in Weeks 11-12 has positioned the project to proceed smoothly into analytical tasks once Week 13 begins.
 
@@ -67,6 +69,6 @@ Both team members contributed to completing the tasks required for this mileston
 
 Frankie Luo worked on acquiring the datasets, performing data cleaning and preprocessing for both AirNow and CitiBike, generating the processed outputs, preparing documentation, and organizing the repository. 
 
-Jimmy Qiu contributed by reviewing the raw files, checking the data quality during cleaning, validating timestamp conversions, helping refine the analysis window, working on dataset exploration, and providing feedback on the project structure and workflow. 
+Jimmy Qiu contributed by reviewing the raw files, checking the data quality during cleaning, validating timestamp conversions, helping refine the analysis window, working on dataset exploration, and providing feedback on the project structure and workflow. Added .gitignore to avoid syncing large raw dataset files to GitHub.
 
 Through these combined efforts, all tasks outlined for Milestone 3 were successfully completed on schedule.
