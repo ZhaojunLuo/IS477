@@ -63,4 +63,10 @@ These changes improve the project's analytical potential while remaining consist
 
 ## 4. Team Member Contributions
 
-Both team members contributed to completing the tasks required for this milestone. Frankie Luo worked on acquiring the datasets, performing data cleaning and preprocessing for both AirNow and CitiBike, generating the processed outputs, preparing documentation, and organizing the repository. Jimmy Qiu contributed by reviewing the raw files, checking the data quality during cleaning, validating timestamp conversions, helping refine the analysis window, working on dataset exploration, and providing feedback on the project structure and workflow. Through these combined efforts, all tasks outlined for Milestone 3 were successfully completed on schedule.
+Both team members contributed to completing the tasks required for this milestone. 
+
+Frankie Luo worked on acquiring the datasets, performing data cleaning and preprocessing for both AirNow and CitiBike, generating the processed outputs, preparing documentation, and organizing the repository. 
+
+Jimmy Qiu contributed by reviewing the raw files, checking the data quality during cleaning, validating timestamp conversions, helping refine the analysis window, working on dataset exploration, and providing feedback on the project structure and workflow. 
+
+Through these combined efforts, all tasks outlined for Milestone 3 were successfully completed on schedule.
